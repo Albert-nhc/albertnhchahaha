@@ -42,3 +42,20 @@ body {
   opacity: 0.5;
 }
 
+.option {
+  border: 2px solid black;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.option.active {
+  transform: scale(1.2);
+}
+
+.option.inactive {
+  transform: scale(0.8);
+  opacity: 0.5;
+}
