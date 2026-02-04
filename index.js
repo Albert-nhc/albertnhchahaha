@@ -4,11 +4,12 @@ const dogGif = document.getElementById("dogGif");
 
 // 所有可随机的 gif
 const gifList = [
-  "assets/gifs/02.gif",
-  "assets/gifs/03.gif",
-  "assets/gifs/04.gif",
-  "assets/gifs/05.gif"
+  "02.gif",
+  "03.gif",
+  "04.gif",
+  "05.gif"
 ];
+
 
 // ⭐ 抽一个随机 gif 的函数
 function changeGifRandomly() {
